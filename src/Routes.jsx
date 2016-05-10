@@ -10,7 +10,7 @@ var Page2 = require('.components/Page2.jsx');
 
 var Routes = (
   <Router>
-    <Route path"/" component={Base} >
+    <Route path="/" component={Base} >
       <Route path="/page1" component={Page1} />
       <Route path="/page2" component={Page2} />
     </Route>

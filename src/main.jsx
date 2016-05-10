@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Router = require('./Routes.jsx');
+var Routes = require('./Routes.jsx');
 
 
-ReactDOM.render(<List />, document.getElementById('main'));
+ReactDOM.render(Routes, document.getElementById('main'));
